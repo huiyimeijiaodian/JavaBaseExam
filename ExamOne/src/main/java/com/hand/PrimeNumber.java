@@ -10,15 +10,15 @@ public class PrimeNumber {
 				count++;
 			}
 		}
-		System.out.print( "101-200间总共有"+count+"个素数,分别是:" );
+		System.out.print( "101-200录盲脳脺鹿虏脫脨"+count+"赂枚脣脴脢媒,路脰卤冒脢脟:" );
 		for(int k=0;k<primeArray.length;k++){
 			System.out.print(primeArray[k]+",");
 		}
         
     }
 	public static boolean isPrime(int number){
-		for(int i = 0;i<number/2;i++){
-			if(number%2==0){
+		for(int i = 2;i<number/2;i++){
+			if(number%i==0){
 				return false;
 			}
 		}
