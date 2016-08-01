@@ -3,7 +3,7 @@ package com.hand;
 public class PrimeNumber {
 	public static void main( String[] args ){
 		int count=0;
-		int[] primeArray=new int[50];
+		int[] primeArray=new int[21];
 		for(int j=100;j<=200;j++){
 			if(isPrime(j)){
 				primeArray[count]=j;
