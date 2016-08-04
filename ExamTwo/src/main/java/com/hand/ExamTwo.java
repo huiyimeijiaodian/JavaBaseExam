@@ -1,4 +1,4 @@
-﻿package com.hand;
+package com.hand;
 import java.util.Scanner;
 public class ExamTwo {
 	public static void main( String[] args ){

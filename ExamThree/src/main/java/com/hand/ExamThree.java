@@ -1,4 +1,5 @@
-package javaexam;
+package com.hand;
+
 import java.util.Scanner;
 public class ExamThree {
 	public static void main( String[] args ){
@@ -40,7 +41,12 @@ public class ExamThree {
            }
            dayCount += days;
        }
-	   System.out.println("你输入的日期是当年的第"+ (dayCount + day) + "天。");
-
+	   if(month==2&&day>29){
+	    	System.out.println("输入日期有误！二月最多29天");   
+	   }else if(day>31){
+		   System.out.println("输入日期有误！");
+	   }else{
+		   System.out.println("你输入的日期是当年的第"+ (dayCount + day) + "天。");
+	   }
 	}
 }

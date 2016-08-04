@@ -1,3 +1,7 @@
+
+git 地址：
+https://github.com/huiyimeijiaodian/JavaBaseExam.git
+
 第一题：
 mvn clean compile exec:java -Dexec.mainClass="com.hand.PrimeNumber"
 
@@ -9,3 +13,4 @@ mvn clean compile exec:java -Dexec.mainClass="com.hand.ExamThree"
 
 第四题：
 mvn clean compile exec:java -Dexec.mainClass="com.hand.ExamFour"
+

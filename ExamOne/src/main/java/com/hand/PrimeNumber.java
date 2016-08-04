@@ -10,7 +10,7 @@ public class PrimeNumber {
 				count++;
 			}
 		}
-		System.out.print( "101-200¼ä×Ü¹²ÓÐ"+count+"¸öËØÊý,·Ö±ðÊÇ:" );
+		System.out.print( "101-200总共有"+count+"¸个素数，分别是:" );
 		for(int k=0;k<primeArray.length;k++){
 			System.out.print(primeArray[k]+",");
 		}
